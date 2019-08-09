@@ -1,0 +1,36 @@
+
+{"squid:ClassVariableVisibilityCheck"OMake stt a static final constant or non-public and provide accessors if needed.(ùõÈæ
+„"squid:ClassVariableVisibilityCheck"SMake lbcolor a static final constant or non-public and provide accessors if needed.(ÌÓµ‹üÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"UMake kichthuoc a static final constant or non-public and provide accessors if needed.(Ş”¥ÿ
+osquid:S00116"TRename this field "PaintData" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î‚¿•ıÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(·ğŞ¾ıÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"TMake txtphone a static final constant or non-public and provide accessors if needed.(Ü¥ê®
+€"squid:ClassVariableVisibilityCheck"OMake mau a static final constant or non-public and provide accessors if needed.(íêµ÷ÿÿÿÿÿ
+|"squid:ClassVariableVisibilityCheck"PMake lbdg a static final constant or non-public and provide accessors if needed.(ĞÏ×ã
+"squid:ClassVariableVisibilityCheck"SMake loaison a static final constant or non-public and provide accessors if needed.(¶€
+ƒ"squid:ClassVariableVisibilityCheck"RMake btnadd a static final constant or non-public and provide accessors if needed.(øØ¡‘ûÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"QMake total a static final constant or non-public and provide accessors if needed.(¼øë•ÿÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"VMake list_table a static final constant or non-public and provide accessors if needed.(Á¯è
+ksquid:S00116"URename this field "list_table" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á¯è
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ§Œª
+nsquid:S00116"SRename this field "id_paint" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ÁÓµùÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"RMake lbtype a static final constant or non-public and provide accessors if needed.(ÏÙ®ô
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰şĞ
+r
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Íóµ¿ûÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck"VMake txtaddress a static final constant or non-public and provide accessors if needed.(ûæ†»úÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheck"QMake txtsl a static final constant or non-public and provide accessors if needed.(¦şêÔÿÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"RMake lbuser a static final constant or non-public and provide accessors if needed.(²ôê
+Ysquid:HiddenFieldCheck"9Rename "total" which hides the field declared at line 45.(¯ïŒŠ
+}"squid:ClassVariableVisibilityCheck"QMake cbson a static final constant or non-public and provide accessors if needed.(´ÃÀÑ
+z"squid:ClassVariableVisibilityCheck"NMake sl a static final constant or non-public and provide accessors if needed.(Ì™‘¬
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õ‡è„
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(µ£œıÿÿÿÿ
+gsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ï€®
+^squid:S2184"DCast one of the operands of this subtraction operation to a "float".(ª¸Øıÿÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"SMake txtname a static final constant or non-public and provide accessors if needed.(ø–Î¶
+^squid:HiddenFieldCheck"9Rename "total" which hides the field declared at line 45.(ù€˜Òüÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"RMake lbsize a static final constant or non-public and provide accessors if needed.(‹Áéƒ
+ƒ"squid:ClassVariableVisibilityCheck"RMake tenson a static final constant or non-public and provide accessors if needed.(Ì°øÆÿÿÿÿÿ
+~"squid:ClassVariableVisibilityCheck"RMake lbdate a static final constant or non-public and provide accessors if needed.(óÁúĞ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¾‡Ş¨ıÿÿÿÿ

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hvktmm.at12i.controller.Statistical">
+   <children>
+      <fx:include source="UI.fxml" />
+      <Pane layoutX="200.0" layoutY="-2.0" prefHeight="75.0" prefWidth="605.0">
+         <children>
+            <Label layoutX="23.0" layoutY="18.0" prefHeight="40.0" prefWidth="268.0" text="Báo Cáo Thống Kê">
+               <font>
+                  <Font name="Ebrima" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <VBox layoutX="200.0" layoutY="76.0" prefHeight="623.0" prefWidth="1164.0">
+         <children>
+            <TabPane>
+               <tabs>
+                  <Tab closable="false" text="Nhập Kho">
+                     <content>
+                        <VBox prefHeight="624.0" prefWidth="1164.0">
+                           <children>
+                              <GridPane prefHeight="85.0" prefWidth="1164.0">
+                                 <children>
+                                    <DatePicker fx:id="date_in" prefHeight="25.0" prefWidth="179.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <DatePicker fx:id="date_out" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                    <Button fx:id="btnxem" mnemonicParsing="false" onAction="#xem" prefHeight="25.0" prefWidth="98.0" text="Xem" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                       <GridPane.margin>
+                                          <Insets left="40.0" />
+                                       </GridPane.margin></Button>
+                                    <Label text="Từ Ngày :" GridPane.rowIndex="1" />
+                                    <Label prefHeight="23.0" prefWidth="75.0" text="Đến Ngày:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                    <Button fx:id="btnbaocao" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="In Báo Cáo" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                                       <GridPane.margin>
+                                          <Insets right="40.0" />
+                                       </GridPane.margin>
+                                    </Button>
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="363.0" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="590.0" minWidth="10.0" prefWidth="190.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="619.0" minWidth="10.0" prefWidth="93.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="733.0" minWidth="10.0" prefWidth="162.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="778.0" minWidth="10.0" prefWidth="339.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="684.0" minWidth="10.0" prefWidth="302.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="11.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="74.0" minHeight="10.0" prefHeight="74.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                              <TableView fx:id="list_table" prefHeight="414.0" prefWidth="1164.0">
+                                 <columns>
+                                    <TableColumn fx:id="stt" prefWidth="110.00003051757812" text="STT" />
+                                    <TableColumn fx:id="code_id" prefWidth="176.99996948242188" text="Mã đơn hàng" />
+                                    <TableColumn fx:id="clname" prefWidth="189.0" text="Nhân viên nhập hàng" />
+                                    <TableColumn fx:id="lbdate" minWidth="0.0" prefWidth="214.0" text=" Ngày Nhập" />
+                                    <TableColumn fx:id="lbstatus" prefWidth="133.0" text="Trạng Thái" />
+                                    <TableColumn fx:id="lb_count" prefWidth="195.0" text="Số lượng" />
+                                    <TableColumn fx:id="lb_tong" prefWidth="220.0" text="Tổng tiền" />
+                                 </columns>
+                              </TableView>
+                              <GridPane>
+                                <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="754.0" minWidth="10.0" prefWidth="686.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="10.0" prefWidth="286.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <Label text="Tổng tiền :" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+                                       <GridPane.margin>
+                                          <Insets right="50.0" />
+                                       </GridPane.margin>
+                                    </Label>
+                                    <Label fx:id="total" prefHeight="25.0" prefWidth="243.0" GridPane.columnIndex="2" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </GridPane>
+                           </children>
+                        </VBox>
+                     </content>
+                  </Tab>
+                  <Tab closable="false" text="Xuất Kho">
+                     <content>
+                        <VBox prefHeight="624.0" prefWidth="1164.0">
+                           <children>
+                              <GridPane prefHeight="85.0" prefWidth="1164.0">
+                                 <children>
+                                    <DatePicker fx:id="date_in1" prefHeight="25.0" prefWidth="179.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <DatePicker fx:id="date_out1" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                    <Button fx:id="btnxem1" mnemonicParsing="false" onAction="#xem1" prefHeight="25.0" prefWidth="98.0" text="Xem" GridPane.columnIndex="5" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                       <GridPane.margin>
+                                          <Insets left="40.0" />
+                                       </GridPane.margin></Button>
+                                    <Label text="Từ Ngày :" GridPane.rowIndex="1" />
+                                    <Label prefHeight="23.0" prefWidth="75.0" text="Đến Ngày:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                    <Button fx:id="btnbaocao1" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="In Báo Cáo" GridPane.columnIndex="5" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                                       <GridPane.margin>
+                                          <Insets right="40.0" />
+                                       </GridPane.margin>
+                                    </Button>
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="363.0" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="590.0" minWidth="10.0" prefWidth="190.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="619.0" minWidth="10.0" prefWidth="93.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="733.0" minWidth="10.0" prefWidth="162.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="778.0" minWidth="10.0" prefWidth="339.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="684.0" minWidth="10.0" prefWidth="302.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="11.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="74.0" minHeight="10.0" prefHeight="74.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                              <TableView fx:id="list_table1" prefHeight="414.0" prefWidth="1164.0">
+                                 <columns>
+                                    <TableColumn fx:id="stt1" prefWidth="110.00003051757812" text="STT" />
+                                    <TableColumn fx:id="clname1" prefWidth="189.0" text="Nhân viên bán hàng" />
+                                    <TableColumn fx:id="lbkh" minWidth="0.0" prefWidth="250.0" text="Tên Khách Hàng" />
+                                    <TableColumn fx:id="lbdate_buy" prefWidth="153.0" text=" Ngày Bán" />
+                                    <TableColumn fx:id="lb_count1" minWidth="0.0" prefWidth="265.0" text="Số lượng" />
+                                    <TableColumn fx:id="lb_tong1" prefWidth="195.0" text="Tổng tiền" />
+                                 </columns>
+                              </TableView>
+                              <GridPane>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="754.0" minWidth="10.0" prefWidth="686.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="382.0" minWidth="10.0" prefWidth="286.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <Label text="Tổng tiền :" GridPane.columnIndex="1" GridPane.halignment="RIGHT">
+                                       <GridPane.margin>
+                                          <Insets right="50.0" />
+                                       </GridPane.margin>
+                                    </Label>
+                                    <Label fx:id="total1" prefHeight="25.0" prefWidth="243.0" GridPane.columnIndex="2" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </GridPane>
+                           </children>
+                        </VBox>
+                     </content>
+                  </Tab>
+                  <Tab text="Nhân Viên">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <GridPane prefHeight="85.0" prefWidth="1164.0">
+                                 <children>
+                                    <DatePicker fx:id="date_in11" prefHeight="25.0" prefWidth="179.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <DatePicker fx:id="date_out11" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                    <Button fx:id="btnxemnv" mnemonicParsing="false" onAction="#xemnv" prefHeight="25.0" prefWidth="98.0" text="Xem" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                       <GridPane.margin>
+                                          <Insets left="40.0" />
+                                       </GridPane.margin>
+                                    </Button>
+                                    <Label text="Từ Ngày :" GridPane.rowIndex="1" />
+                                    <Label prefHeight="23.0" prefWidth="75.0" text="Đến Ngày:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                    <Button fx:id="btnbaocao11" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="In Báo Cáo" GridPane.columnIndex="6" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                                       <GridPane.margin>
+                                          <Insets right="40.0" />
+                                       </GridPane.margin>
+                                    </Button>
+                                    <RadioButton fx:id="rdnhap" mnemonicParsing="false" text="Nhập Hàng" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                    <RadioButton fx:id="rdban" mnemonicParsing="false" text="Bán Hàng" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="363.0" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="590.0" minWidth="10.0" prefWidth="190.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="619.0" minWidth="10.0" prefWidth="93.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="733.0" minWidth="10.0" prefWidth="205.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="778.0" minWidth="10.0" prefWidth="160.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="778.0" minWidth="10.0" prefWidth="159.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="684.0" minWidth="10.0" prefWidth="306.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="11.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="74.0" minHeight="10.0" prefHeight="74.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                              <TableView fx:id="list_tablenv" layoutY="103.0" prefHeight="411.0" prefWidth="1164.0">
+                                 <columns>
+                                    <TableColumn fx:id="sttnv" prefWidth="110.00003051757812" text="STT" />
+                                    <TableColumn fx:id="clnamenv" prefWidth="352.0" text="Tên Nhân viên " />
+                                    <TableColumn fx:id="lb_countnv" minWidth="0.0" prefWidth="267.0" text="Số lượng" />
+                                    <TableColumn fx:id="lb_tong1nv" prefWidth="433.0" text="Tổng tiền" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab text="Khách Hàng">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <GridPane prefHeight="85.0" prefWidth="1164.0">
+                                 <children>
+                                    <DatePicker fx:id="date_inkh" prefHeight="25.0" prefWidth="179.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                    <DatePicker fx:id="date_outkh" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                                    <Button fx:id="btnxemkh" mnemonicParsing="false" onAction="#xemkh" prefHeight="25.0" prefWidth="98.0" text="Xem" GridPane.columnIndex="6" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                       <GridPane.margin>
+                                          <Insets left="40.0" />
+                                       </GridPane.margin>
+                                    </Button>
+                                    <Label text="Từ Ngày :" GridPane.rowIndex="1" />
+                                    <Label prefHeight="23.0" prefWidth="75.0" text="Đến Ngày:" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                                    <Button fx:id="btnbaocaokh" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="In Báo Cáo" GridPane.columnIndex="6" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                                       <GridPane.margin>
+                                          <Insets right="40.0" />
+                                       </GridPane.margin>
+                                    </Button>
+
+                                     <RadioButton fx:id="rdkh" mnemonicParsing="false" text="Mua Hàng" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+                                     <RadioButton fx:id="rdncckh" mnemonicParsing="false" text="Nhà Cung Cấp" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+                                 </children>
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="363.0" minWidth="10.0" prefWidth="100.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="590.0" minWidth="10.0" prefWidth="190.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="619.0" minWidth="10.0" prefWidth="93.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="733.0" minWidth="10.0" prefWidth="205.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="778.0" minWidth="10.0" prefWidth="160.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="778.0" minWidth="10.0" prefWidth="159.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="684.0" minWidth="10.0" prefWidth="306.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints maxHeight="38.0" minHeight="10.0" prefHeight="11.0" vgrow="SOMETIMES" />
+                                    <RowConstraints maxHeight="74.0" minHeight="10.0" prefHeight="74.0" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                              </GridPane>
+                              <TableView fx:id="list_tablekh" layoutY="124.0" prefHeight="287.0" prefWidth="1164.0">
+                                 <columns>
+                                    <TableColumn fx:id="sttkh" prefWidth="110.00003051757812" text="STT" />
+                                    <TableColumn fx:id="clnamekh" prefWidth="352.0" text="Tên Khách Hàng" />
+                                    <TableColumn fx:id="lb_countkh" minWidth="0.0" prefWidth="384.0" text="Số lượng" />
+                                    <TableColumn fx:id="lb_tongkh" prefWidth="316.0" text="Tổng tiền" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+                  <Tab closable="false" text="Lợi Nhuận">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

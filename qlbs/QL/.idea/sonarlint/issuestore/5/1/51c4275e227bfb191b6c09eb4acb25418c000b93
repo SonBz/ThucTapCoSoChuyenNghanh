@@ -1,0 +1,20 @@
+
+d$squid:AssignmentInSubExpressionCheck‚".Extract the assignment out of this expression.(ÄÜùçşÿÿÿÿ
+_$squid:AssignmentInSubExpressionCheck‡".Extract the assignment out of this expression.(æÏöû
+Asquid:S1481"*Remove this unused "depot" local variable.(ŠøãÏ
+nsquid:S3776h"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Îñ­üıÿÿÿÿ
+Isquid:S1172h"-Remove this unused method parameter "status".(Îñ­üıÿÿÿÿ
+[squid:S2147="DCombine this catch with the one at line 59, which has the same body.(”ı¾
+[squid:S2147a"DCombine this catch with the one at line 95, which has the same body.(”ı¾
+]squid:S2147™"ECombine this catch with the one at line 151, which has the same body.(”ı¾
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ùøÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ùøÿÿÿÿ
+?squid:S1148/"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148>"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148S"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148`"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S1148b"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148‹"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148˜"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148š"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

@@ -1,0 +1,20 @@
+
+rsquid:S00116%"ZRename this field "list_view_table" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éæ–°
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰²Ù®8æÓ¢‚ä,
+ssquid:S00116"TRename this field "lbdate_in" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“÷‚…8ž”‹‚ä,
+‰"squid:ClassVariableVisibilityCheck"TMake lbnamesp a static final constant or non-public and provide accessors if needed.(‚ÿ8ãˆ‚ä,
+ysquid:S00116"URename this field "lbdate_out" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íè ‹ùÿÿÿÿ8–¸‹‚ä,
+‡"squid:ClassVariableVisibilityCheck"RMake lbtype a static final constant or non-public and provide accessors if needed.(ÏÙ®ô8†Ù„‚ä,
+Š"squid:ClassVariableVisibilityCheck"UMake lbdate_in a static final constant or non-public and provide accessors if needed.(“÷‚…8ž”‹‚ä,
+‹"squid:ClassVariableVisibilityCheck"QMake lbson a static final constant or non-public and provide accessors if needed.(þŽöãøÿÿÿÿ8˜ðä€ä,
+‡"squid:ClassVariableVisibilityCheck"RMake lbsize a static final constant or non-public and provide accessors if needed.(‹Áéƒ8„È‰‚ä,
+‹"squid:ClassVariableVisibilityCheck!"QMake lbsum a static final constant or non-public and provide accessors if needed.(ÀÊ²¹ûÿÿÿÿ8«¤Œ‚ä,
+Ž"squid:ClassVariableVisibilityCheck#"TMake lbstatus a static final constant or non-public and provide accessors if needed.(® Ý¼ÿÿÿÿÿ8½³°‚ä,
+‹"squid:ClassVariableVisibilityCheck""QMake lbnsx a static final constant or non-public and provide accessors if needed.(ÅŒßéùÿÿÿÿ8ÜÑŒ‚ä,
+nsquid:CommentedOutCodeLinea"<This block of commented-out lines of code should be removed.(ßÿÑýÿÿÿÿ8ÓÝ×‚ä,
+"squid:ClassVariableVisibilityCheck"SMake lbcolor a static final constant or non-public and provide accessors if needed.(ÌÓµ‹üÿÿÿÿ8¾¦Š‚ä,
+"squid:ClassVariableVisibilityCheck"SMake lbprice a static final constant or non-public and provide accessors if needed.(’ó—…øÿÿÿÿ8œÊŠ‚ä,
+‡"squid:ClassVariableVisibilityCheck"RMake lbuser a static final constant or non-public and provide accessors if needed.(²ôê8”Ùƒ‚ä,
+"squid:ClassVariableVisibilityCheck"VMake lbdate_out a static final constant or non-public and provide accessors if needed.(Íè ‹ùÿÿÿÿ8–¸‹‚ä,
+"squid:ClassVariableVisibilityCheck "SMake lbcount a static final constant or non-public and provide accessors if needed.(©ƒ¸íøÿÿÿÿ8³þ‹‚ä,
+\squid:UselessImportCheck"9Remove this unused import 'com.hvktmm.at12i.model.Paint'.(’ïæ_

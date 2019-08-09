@@ -1,0 +1,8 @@
+
+˜squid:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µûÃ£
+Osquid:S11725",Remove this unused method parameter "event".(ñĞÂşÿÿÿÿ8¸ÌÆ„ä,
+˜squid:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(²Ÿâ
+Jsquid:S11722",Remove this unused method parameter "event".(¼»ü®8ë­Å„ä,
+Osquid:S1172(",Remove this unused method parameter "event".(û½Äıÿÿÿÿ8úŒÀ„ä,
+bsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(˜Û¥Ğ
+Hsquid:S1172",Remove this unused method parameter "event".(ªèÀ¥üÿÿÿÿ

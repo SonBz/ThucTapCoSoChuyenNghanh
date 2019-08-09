@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hvktmm.at12i.controller.AddPaintController">
+   <children>
+      <Label alignment="CENTER" layoutX="56.0" prefHeight="44.0" prefWidth="588.0" text="Thêm Mới Sơn">
+         <font>
+            <Font name="Ebrima" size="18.0" />
+         </font>
+      </Label>
+      <Pane layoutX="82.0" layoutY="60.0" prefHeight="277.0" prefWidth="567.0">
+         <children>
+            <VBox layoutX="6.0" layoutY="2.0" prefHeight="268.0" prefWidth="561.0">
+               <children>
+                  <HBox prefHeight="40.0" prefWidth="601.0">
+                     <children>
+                        <Label prefHeight="40.0" prefWidth="100.0" text="Nhà cung cấp :" />
+                        <TextField fx:id="txtncc" prefHeight="35.0" prefWidth="359.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox layoutX="6.0" layoutY="46.0" prefHeight="35.0" prefWidth="561.0">
+               <children>
+                  <Label prefHeight="40.0" prefWidth="100.0" text="Tên sơn :" />
+                  <TextField fx:id="txtname" prefHeight="35.0" prefWidth="359.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="3.0" layoutY="91.0" prefHeight="40.0" prefWidth="561.0">
+               <children>
+                  <Label prefHeight="40.0" prefWidth="102.0" text="Loại sơn :" />
+                  <TextField fx:id="txttype" prefHeight="35.0" prefWidth="359.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="6.0" layoutY="154.0" prefHeight="40.0" prefWidth="561.0">
+               <children>
+                  <Label prefHeight="40.0" prefWidth="100.0" text="Màu :" />
+                  <TextField fx:id="txtcolor" prefHeight="35.0" prefWidth="149.0" />
+                  <Label alignment="CENTER" prefHeight="40.0" prefWidth="104.0" text="Kích thước :" />
+                  <TextField fx:id="txtsize" prefHeight="35.0" prefWidth="105.0" />
+               </children>
+            </HBox>
+            <HBox layoutX="6.0" layoutY="201.0" prefHeight="40.0" prefWidth="561.0">
+               <children>
+                  <Label prefHeight="40.0" prefWidth="100.0" text="Đơn giá :" />
+                  <TextField fx:id="txtprice" prefHeight="35.0" prefWidth="149.0" />
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+      <Button layoutX="304.0" layoutY="348.0" mnemonicParsing="false" onAction="#them" prefHeight="25.0" prefWidth="92.0" text="Thêm">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+
+?squid:S1148?"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+T
+squid:S106I"9Replace this use of System.out or System.err by a logger.(§ı¡şÿÿÿÿ
+[squid:S2147>"DCombine this catch with the one at line 60, which has the same body.(”ı¾
+`squid:UselessImportCheck"<Remove this unused import 'com.hvktmm.at12i.utils.DateUtil'.(¨·¶„
+?squid:S1148="#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+qsquid:S2068"U'password' detected in this expression, review this potentially hardcoded credential.(‡˜ÏÅüÿÿÿÿ

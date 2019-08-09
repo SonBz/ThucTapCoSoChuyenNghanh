@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="parent" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="700.0" prefWidth="200.0" styleClass="parent" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.hvktmm.at12i.controller.MenuController">
+        <children>
+        <VBox alignment="TOP_CENTER" prefHeight="710.0" prefWidth="200.0" styleClass="sidebar">
+            <children>
+                <Label prefHeight="75.0" prefWidth="200.0" style="-fx-background-color: #00A2D3;" text="Quản lý Bán Sơn" textFill="WHITE">
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <font>
+                        <Font name="Ebrima" size="18.0" />
+                    </font>
+                </Label>
+                <HBox alignment="CENTER_LEFT">
+                    <children>
+                        <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="SEARCH" size="1.3em" />
+                        <TextField promptText="Search" style="-fx-background-color: transparent; -fx-text-fill: #fff;" HBox.hgrow="ALWAYS">
+                            <font>
+                                <Font name="Calibri Light" size="14.0" />
+                            </font>
+                        </TextField>
+                    </children>
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </HBox>
+
+                <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="95.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" styleClass="btns">
+                    <children>
+                        <JFXButton fx:id="btnkho" contentDisplay="LEFT" onAction="#kho" text=" Kho" textFill="#7c8184">
+                            <graphic>
+                                <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="DASHBOARD" size="1.4em" />
+                            </graphic>
+                        </JFXButton>
+                    </children>
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </HBox>
+
+
+                <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="95.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" styleClass="btns">
+                    <children>
+                        <JFXButton fx:id="btnnhap" contentDisplay="LEFT" onAction="#nhapkho" text="Nhập Kho" textFill="#7c8184">
+                            <graphic>
+                                <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="DASHBOARD" size="1.4em" />
+                            </graphic>
+                        </JFXButton>
+                    </children>
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <!--<VBox.margin>-->
+                        <!--<Insets top="10.0" />-->
+                    <!--</VBox.margin>-->
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </HBox>
+
+
+                <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="132.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" styleClass="btns">
+                    <children>
+                        <JFXButton fx:id="btnxuat" contentDisplay="LEFT" onAction="#xuatkho" text="Xuất Kho" textFill="#7c8184">
+                            <graphic>
+                                <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="DASHBOARD" size="1.4em" />
+                            </graphic>
+                        </JFXButton>
+                    </children>
+
+                    <!--<children>-->
+                        <!--<FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="LIST" size="1.3em" />-->
+                        <!--<Label text="Projects" textFill="#7c8184">-->
+                            <!--<font>-->
+                                <!--<Font name="Calibri Light" size="15.0" />-->
+                            <!--</font>-->
+                            <!--<HBox.margin>-->
+                                <!--<Insets left="10.0" />-->
+                            <!--</HBox.margin>-->
+                        <!--</Label>-->
+                    <!--</children>-->
+
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </HBox>
+
+                <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="132.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" styleClass="btns">
+                    <children>
+                        <JFXButton fx:id="btnthongke" contentDisplay="LEFT" onAction="#thongke" text="Thống Kê" textFill="#7c8184">
+                            <graphic>
+                                <FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="DASHBOARD" size="1.4em" />
+                            </graphic>
+                        </JFXButton>
+                    </children>
+
+                    <!--<children>-->
+                        <!--<FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="USERS" size="1.3em" />-->
+                        <!--<Label text="Users" textFill="#7c8184">-->
+                            <!--<font>-->
+                                <!--<Font name="Calibri Light" size="15.0" />-->
+                            <!--</font>-->
+                            <!--<HBox.margin>-->
+                                <!--<Insets left="10.0" />-->
+                            <!--</HBox.margin>-->
+                        <!--</Label>-->
+                    <!--</children>-->
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </HBox>
+
+
+                <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="172.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="200.0" styleClass="btns">
+                    <children>
+                        <JFXButton fx:id="btnsetting" contentDisplay="LEFT" onAction="#setting" text="Cài đặt" textFill="#7c8184">
+                            <graphic>
+                                <FontAwesomeIcon glyphStyle="-fx-fill:#7c8184" iconName="GEAR" size="1.4em" />
+                            </graphic>
+                        </JFXButton>
+                    </children>
+
+                    <!--<children>-->
+                        <!--<FontAwesomeIcon glyphStyle="-fx-fill:#7C8184" iconName="FILE" size="1.3em" />-->
+                        <!--<Label text="Resource" textFill="#7c8184">-->
+                            <!--<font>-->
+                                <!--<Font name="Calibri Light" size="15.0" />-->
+                            <!--</font>-->
+                            <!--<HBox.margin>-->
+                                <!--<Insets left="10.0" />-->
+                            <!--</HBox.margin>-->
+                        <!--</Label>-->
+                    <!--</children>-->
+                    <padding>
+                        <Insets left="10.0" />
+                    </padding>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </HBox>
+
+
+
+            </children>
+        </VBox>
+
+    </children>
+</AnchorPane>

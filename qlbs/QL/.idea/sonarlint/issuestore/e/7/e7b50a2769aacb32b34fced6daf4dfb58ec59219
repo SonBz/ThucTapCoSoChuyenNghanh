@@ -1,0 +1,25 @@
+
+nsquid:CallToDeprecatedMethod8":Remove this use of "CHARACTER_ENCODING"; it is deprecated.(”Ê­€şÿÿÿÿ8ëÅ×ç,
+\squid:S1854">Remove this useless assignment to local variable "outputFile".(›Îå8ëÅ×ç,
+nsquid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(¦¨™‡üÿÿÿÿ8ëÅ×ç,
+dsquid:CallToDeprecatedMethod7"5Remove this use of "OUTPUT_STREAM"; it is deprecated.(±˜úé8ëÅ×ç,
+qsquid:S2095J"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Ò°’êÿÿÿÿÿ8ëÅ×ç,
+nsquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(åĞå“ıÿÿÿÿ8ëÅ×ç,
+csquid:CallToDeprecatedMethod6"4Remove this use of "setParameter"; it is deprecated.(¿Ê†·8ëÅ×ç,
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(íèÑ„ùÿÿÿÿ8ëÅ×ç,
+isquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(˜§µÔ8ëÅ×ç,
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÖÎŞî8ëÅ×ç,
+jsquid:CallToDeprecatedMethod7";Remove this use of "JRExporterParameter"; it is deprecated.(±˜úé8ëÅ×ç,
+csquid:CallToDeprecatedMethod6"4Remove this use of "JASPER_PRINT"; it is deprecated.(¿Ê†·8ëÅ×ç,
+V
+squid:S106D"9Replace this use of System.out or System.err by a logger.(¾’æ8ëÅ×ç,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(áß÷€ÿÿÿÿÿ8ëÅ×ç,
+dsquid:S1075"ARefactor your code to get this URI from a customizable parameter.(ÔôšŠÿÿÿÿÿ8ëÅ×ç,
+Msquid:S1481"/Remove this unused "outputFile" local variable.(›Îå8ëÅ×ç,
+jsquid:CallToDeprecatedMethod6";Remove this use of "JRExporterParameter"; it is deprecated.(¿Ê†·8ëÅ×ç,
+osquid:CallToDeprecatedMethod8";Remove this use of "JRExporterParameter"; it is deprecated.(”Ê­€şÿÿÿÿ8ëÅ×ç,
+jsquid:S00112H"FDefine and throw a dedicated exception instead of using a generic one.(ŒÌûÓùÿÿÿÿ8ëÅ×ç,
+hsquid:CallToDeprecatedMethod8"4Remove this use of "setParameter"; it is deprecated.(”Ê­€şÿÿÿÿ8ëÅ×ç,
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(·®Ğİ8ëÅ×ç,
+csquid:CallToDeprecatedMethod7"4Remove this use of "setParameter"; it is deprecated.(±˜úé8ëÅ×ç,
